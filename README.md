@@ -13,4 +13,3 @@
   - LSTM_FCNs hyperparameter
     <br>
 
-#### 시계열 분류 모델 hyperparameter <br>
