@@ -30,7 +30,6 @@ class LSTM_FCNs(nn.Module):
         self.n_time = n_time
         self.num_classes_1 = num_classes_1
         self.num_classes_2 = num_classes_2
-        # self.max_seq_len = max_seq_len
         self.num_features = input_size
 
         self.num_lstm_out = num_lstm_out
