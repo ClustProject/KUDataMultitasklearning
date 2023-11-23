@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 21 14:29:09 2023
-
-@author: lee
-"""
-
 import torch
 import torch.nn as nn
 import pandas as pd
