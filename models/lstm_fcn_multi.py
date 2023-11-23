@@ -66,9 +66,6 @@ class LSTM_FCNs(nn.Module):
         self.fc_2 = nn.Linear(self.conv3_nf+self.num_lstm_out, self.num_classes_2)
     
     def forward(self, x):
-        # input x should be in size [B,T,F] , where B = Batch size
-        #                                           T = Time sampels
-        #                                           F = features
 
         x = x.permute(0, 2, 1)
 
