@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 def load_data(folderAddress, model_name):
-    if model_name in ["LSTM", "GRU", "CNN_1D", "LSTM_FCNs"]:
+    if model_name in ["LSTM_FCNs"]:
         # raw time series data
         train_x = pickle.load(open(folderAddress + 'x_train.pkl', 'rb'))
         train_y = pickle.load(open(folderAddress + 'y_train.pkl', 'rb'))
