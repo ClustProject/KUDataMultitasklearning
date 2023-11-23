@@ -49,7 +49,6 @@ class LSTM_FCNs(nn.Module):
         
         self.conv1 = nn.Conv1d(self.num_features, self.conv1_nf, 8)
         self.conv2 = nn.Conv1d(self.conv1_nf, self.conv2_nf, 5)
-        # self.conv3 = nn.Conv1d(self.conv2_nf, self.conv3_nf, 1)
         self.conv3 = nn.Conv1d(self.conv2_nf, self.conv3_nf, 3)
 
         self.bn1 = nn.BatchNorm1d(self.conv1_nf)
