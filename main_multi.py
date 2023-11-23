@@ -175,7 +175,7 @@ class Multilearning():
         
     
     def tuning_model(self,best_model_path,freeze):
-        # config 에 Source / Target dataset 정리       
+      
         ## change / freeze / save
         
         # load best model
